@@ -1,20 +1,22 @@
 # 메타몽 데스크톱 펫
 
-메타몽이 키보드 입력과 마우스 클릭에 반응하는 Windows 데스크톱 앱의 배포 저장소입니다.
+메타몽이 키보드 입력과 마우스 클릭에 반응하는 Windows·Mac 데스크톱 앱의 배포 저장소입니다.
 
 **[다운로드와 설치 안내](https://wasjoy.github.io/rokeshot-pet/)**
 
-## v0.2.2
+## v0.2.4
 
 - Windows x64 설치 파일. 무료 테스트 배포판입니다.
 - 입력 반응이 기본으로 켜집니다. 사용자가 끈 설정은 유지됩니다.
-- QWER / ASDF / ZXCV 키 위치에 맞춰 왼팔이 움직이고, 오른팔은 마우스 좌우 버튼에 따로 반응합니다.
+- 숫자열·영문 자판·스페이스·엔터 등을 포함한 기본 타이핑 배열과 QWER / ASDF / ZXCV 12키 배열을 선택할 수 있습니다. F열·탐색 키·숫자패드는 제외합니다.
+- 실제 마우스 이동에 맞춰 패드 안에서 마우스와 오른팔이 움직입니다. 좌우 클릭과 누름 유지도 표현합니다.
+- 펫 우클릭으로 설정·종료 메뉴를 열며, 왼쪽 버튼으로 드래그합니다.
 - 누르고 있는 동안 자세를 유지합니다. 펫을 드래그해서 위치를 옮길 수 있습니다.
-- 설정은 입력 반응, 크기, 컴퓨터 켤 때 시작하기, 위치 되돌리기로 구성됩니다.
+- 설정은 입력 반응, 키보드 배열, 크기, 컴퓨터 켤 때 시작하기, 위치 되돌리기로 구성됩니다.
 - 컴퓨터 켤 때 시작하기를 체크하면 로그인 후 설정 창 없이 펫만 실행됩니다. 초기값은 꺼짐입니다.
 - 메타몽이 기본 포함됩니다. 캐릭터 선택·PNG 파츠·숨기기 기능은 없습니다.
 
-[Windows 설치 파일](https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.2/Ditto-Desktop-Pet-0.2.2-win-x64.exe) · [릴리스](https://github.com/WasJoy/rokeshot-pet/releases/tag/v0.2.2)
+[Windows 설치 파일](https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.4/Ditto-Desktop-Pet-0.2.4-win-x64.exe) · [릴리스](https://github.com/WasJoy/rokeshot-pet/releases/tag/v0.2.4)
 
 ## 설치
 
@@ -36,3 +38,5 @@
 이 저장소에는 공개 다운로드 페이지와 릴리스 파일만 있습니다. 앱 소스는 별도로 관리합니다.
 
 비공식 팬 프로젝트입니다. 포켓몬 관련 권리는 각 권리자에게 있습니다.
+
+Mac 기본 배포는 Apple Silicon(arm64)입니다. ZIP: [Apple Silicon](https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.4/Ditto-Desktop-Pet-0.2.4-mac-arm64.zip). 로컬 서명이며 Apple 공증은 받지 않았습니다. 입력 반응에는 macOS 손쉬운 사용 권한이 필요합니다.

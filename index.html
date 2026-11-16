@@ -28,12 +28,13 @@
       <div class="download-content">
         <h1 id="title">메타몽<br>데스크톱 펫</h1>
         <p class="intro">내가 누르는 키를 메타몽도 꾹.<br>타이핑과 클릭에 맞춰 움직여요.</p>
-        <a class="download-button" href="https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.2/Ditto-Desktop-Pet-0.2.2-win-x64.exe">
+        <a class="download-button" href="https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.4/Ditto-Desktop-Pet-0.2.4-win-x64.exe">
           <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" d="M1 3.5 9 2.4V9H1zm9-1.2L19 1v8h-9zM1 10h8v6.6l-8-1.1zm9 0h9v8l-9-1.3z"/></svg>
           Windows용 다운로드
         </a>
-        <p class="file-info">v0.2.2 <span aria-hidden="true">/</span> 64비트 <span aria-hidden="true">/</span> <span id="file-size">122 MB</span></p>
+        <p class="file-info">v0.2.4 <span aria-hidden="true">/</span> 64비트 <span aria-hidden="true">/</span> <span id="file-size">122 MB</span></p>
         <p class="release-note">무료 테스트 배포판입니다. 코드 서명이 없어 Windows에서 게시자 확인 경고가 나타날 수 있어요.</p>
+        <p class="detail-links mac-downloads">Mac용 <a href="https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.4/Ditto-Desktop-Pet-0.2.4-mac-arm64.zip">Apple Silicon</a></p>
         <button class="copy-button" id="copy-link" type="button">다운로드 페이지 링크 복사</button>
         <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
       </div>
@@ -50,17 +51,21 @@
       <section class="details" aria-label="앱 정보">
         <details open>
           <summary>어떤 입력에 반응하나요?</summary>
-          <p><span class="key-row">Q W E R · A S D F · Z X C V</span>키마다 왼팔이 해당 버튼으로 움직여요. 오른팔은 마우스 왼쪽·오른쪽 클릭에 따로 반응하고, 꾹 누르면 누른 자세를 유지해요.</p>
+          <p>숫자·영문·스페이스·엔터 등 기본 키 위치에 왼팔이 반응해요. 설정에서 전체 키보드와 QWER 12키 배열을 바꿀 수 있어요. 마우스를 움직이면 패드 위의 마우스와 오른팔이 함께 움직이고, 좌우 클릭과 꾹 누르기도 표현해요.</p>
         </details>
         <details>
           <summary>설정과 종료는 어디에 있나요?</summary>
-          <p>작업 표시줄 알림 영역의 보라색 펫 아이콘을 누르면 설정이 열려요. 입력 반응과 크기를 조절할 수 있어요. 컴퓨터 켤 때 시작하기를 체크하면 다음 로그인부터 펫만 자동으로 실행돼요. 종료를 누르면 앱이 완전히 꺼져요.</p>
+          <p>펫을 우클릭하면 설정·종료 메뉴가 열려요. 작업 표시줄의 펫 아이콘으로도 설정을 열 수 있어요. 입력 반응과 키보드 배열, 크기를 조절할 수 있어요. 컴퓨터 켤 때 시작하기를 체크하면 다음 로그인부터 펫만 자동으로 실행돼요. 종료를 누르면 앱이 완전히 꺼져요.</p>
+        </details>
+        <details>
+          <summary>Mac에서는 어떻게 사용하나요?</summary>
+          <p>Apple Silicon(M 시리즈)용 ZIP을 받고, 압축을 푼 앱을 응용 프로그램 폴더로 옮기세요. 입력 반응을 사용하려면 시스템 설정의 손쉬운 사용에서 앱을 허용해야 해요. 로컬 서명만 적용된 테스트 배포판으로 Apple 공증은 받지 않았어요.</p>
         </details>
         <details>
           <summary>어디까지 검증했나요?</summary>
-          <p id="verification-copy">Windows 자동 환경에서 설치·실행·제거와 OS 키 입력 전달·누름 유지를 확인했어요. 기본 테스트 35개도 통과했어요. 시작 프로그램 등록·해제와 펫만 자동 실행되는 동작도 검사했어요. 마우스는 이벤트 전달과 좌우 버튼 표시를 검사했어요.</p>
+          <p id="verification-copy">Windows 자동 환경에서 설치·실행·제거와 OS 키 입력 전달·누름 유지를 확인했어요. 기본 테스트 42개도 통과했어요. 시작 프로그램 등록·해제와 펫만 자동 실행되는 동작도 검사했어요. 마우스패드 안의 이동·좌우 버튼 누름·반복 우클릭 메뉴·펫 드래그도 검사했어요.</p>
           <p>실제 Windows 10·11 PC의 물리 키보드·마우스 테스트는 별도입니다. ARM 전용 빌드는 제공하지 않아요.</p>
-          <p class="detail-links"><a href="https://github.com/WasJoy/rokeshot-pet/releases/tag/v0.2.2">릴리스와 검증 결과</a><a href="https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.2/SHA256SUMS.txt">파일 체크섬</a></p>
+          <p class="detail-links"><a href="https://github.com/WasJoy/rokeshot-pet/releases/tag/v0.2.4">릴리스와 검증 결과</a><a href="https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.4/SHA256SUMS.txt">파일 체크섬</a></p>
         </details>
       </section>
     </div>
