@@ -4,7 +4,12 @@
 
 **[다운로드와 설치 안내](https://wasjoy.github.io/rokeshot-pet/)**
 
-## v0.2.4
+## v0.2.5
+
+- 대기 중 숨쉬기, 기지개, 픽셀 음표와 하트 모션.
+- 입력하면 즉시 대기 모션을 멈추며, 누르고 있는 키와 마우스가 있으면 계속 입력 자세를 유지합니다.
+- [웹 체험과 다운로드](https://rokeshot.com/downloads/ditto-pet)
+
 
 - Windows x64 설치 파일. 무료 테스트 배포판입니다.
 - 입력 반응이 기본으로 켜집니다. 사용자가 끈 설정은 유지됩니다.
@@ -16,7 +21,7 @@
 - 컴퓨터 켤 때 시작하기를 체크하면 로그인 후 설정 창 없이 펫만 실행됩니다. 초기값은 꺼짐입니다.
 - 메타몽이 기본 포함됩니다. 캐릭터 선택·PNG 파츠·숨기기 기능은 없습니다.
 
-[Windows 설치 파일](https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.4/Ditto-Desktop-Pet-0.2.4-win-x64.exe) · [릴리스](https://github.com/WasJoy/rokeshot-pet/releases/tag/v0.2.4)
+[Windows 설치 파일](https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.5/Ditto-Desktop-Pet-0.2.5-win-x64.exe) · [릴리스](https://github.com/WasJoy/rokeshot-pet/releases/tag/v0.2.5)
 
 ## 설치
 
@@ -39,4 +44,4 @@
 
 비공식 팬 프로젝트입니다. 포켓몬 관련 권리는 각 권리자에게 있습니다.
 
-Mac 기본 배포는 Apple Silicon(arm64)입니다. ZIP: [Apple Silicon](https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.4/Ditto-Desktop-Pet-0.2.4-mac-arm64.zip). 로컬 서명이며 Apple 공증은 받지 않았습니다. 입력 반응에는 macOS 손쉬운 사용 권한이 필요합니다.
+Mac 기본 배포는 Apple Silicon(arm64)입니다. ZIP: [Apple Silicon](https://github.com/WasJoy/rokeshot-pet/releases/download/v0.2.5/Ditto-Desktop-Pet-0.2.5-mac-arm64.zip). 로컬 서명이며 Apple 공증은 받지 않았습니다. 입력 반응에는 macOS 손쉬운 사용 권한이 필요합니다.
